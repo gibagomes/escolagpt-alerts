@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema de Notificações</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="notification-container" id="notificationContainer"></div>
+    <button
+      onclick="showNotification('success', 'Operação realizada com sucesso!')"
+    >
+      Mostrar Sucesso
+    </button>
+    <button onclick="showNotification('error', 'Ocorreu um erro!')">
+      Mostrar Erro
+    </button>
+    <button onclick="showNotification('warning', 'Atenção!')">
+      Mostrar Aviso
+    </button>
+    <button onclick="showNotification('info', 'Informação importante.')">
+      Mostrar Informação
+    </button>
+    <script src="js/script.js"></script>
+  </body>
+</html>
